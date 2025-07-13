@@ -1,0 +1,36 @@
+:root {
+    --purple: #6f42c1;
+    --light-purple: #f8f9fa;
+  }
+  
+  .text-purple {
+    color: var(--purple) !important;
+  }
+  
+  .bg-light-purple {
+    background-color: var(--light-purple);
+  }
+  
+  .active-link {
+    color: var(--purple) !important;
+    font-weight: 600;
+    position: relative;
+  }
+  
+  .active-link:after {
+    content: '';
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: var(--purple);
+  }
+  
+  .navbar-brand:hover {
+    opacity: 0.8;
+  }
+  
+  .nav-link:hover {
+    color: var(--purple) !important;
+  }

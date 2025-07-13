@@ -1,0 +1,18 @@
+.bg-light-purple {
+    background-color: #f8f9fa;
+}
+.text-purple {
+    color: #6f42c1;
+}
+.btn-purple {
+    background-color: #6f42c1;
+    color: white;
+}
+.btn-purple:hover {
+    background-color: #5a32a3;
+    color: white;
+}
+.card.inactive {
+  opacity: 0.6;
+  pointer-events: none;
+}
